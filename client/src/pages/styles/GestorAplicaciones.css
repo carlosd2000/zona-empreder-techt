@@ -1,0 +1,141 @@
+.gestor-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-container {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .form-container input {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .form-container button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .form-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  .aplicaciones-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .aplicacion-item {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .aplicacion-item h3 {
+    margin: 0;
+  }
+  
+  .aplicacion-item .tags {
+    margin-top: 10px;
+  }
+  
+  .aplicacion-item .tag {
+    background-color: #007bff;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 15px;
+    margin-right: 5px;
+  }
+  
+  .aplicacion-item button {
+    margin-top: 10px;
+    padding: 8px 15px;
+    background-color: #ff5733;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .aplicacion-item button:hover {
+    background-color: #cc4e27;
+  }
+  
+  .aplicacion-item a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .etiquetas-seleccionadas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 10px;
+  }
+  
+  .etiqueta-seleccionada {
+    background-color: #f0f0f0;
+    padding: 5px 10px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .remove-tag {
+    margin-left: 8px;
+    font-size: 12px;
+    cursor: pointer;
+    color: red;
+  }
+  
+  .etiquetas-sugeridas {
+    margin-top: 10px;
+    max-height: 200px;
+    overflow-y: auto;
+  }
+  
+  .etiqueta-sugerida {
+    padding: 8px;
+    background-color: #e0e0e0;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .etiqueta-sugerida:hover {
+    background-color: #d1d1d1;
+  }
+  
+  .etiqueta-sugerida.selected {
+    background-color: #a8d0e6;
+    font-weight: bold;
+  }
+
+  .aplicacion-icono {
+    width: 100px; /* Tamaño en píxeles */
+    height: 100px; /* Tamaño en píxeles */
+  }

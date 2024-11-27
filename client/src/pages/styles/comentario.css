@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+.container-comentario {
+    padding: 20px;
+    background-color: #512da8;
+    border-radius: 30px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+    position: relative;
+    overflow: hidden;
+    width: 750px;
+    max-width: 760px;
+    max-height: 500px;
+    margin-left: 340px;
+    margin-top: 30px;
+}
+
+
+.titulo-comentario{
+    text-decoration: overline;
+    color: white;
+    text-align: center;
+}
+.p-text{
+    padding-bottom: 20px;
+    color: white;
+    text-align: center;
+}
+.xyz-ranking{
+    font-weight: bold;
+    font-size: 20px;
+}
+.text-comentario{
+    padding: 10px;
+    margin-left: 20px;
+    line-height: 25px;
+    color: white;
+    max-width: 550px;
+}
+.comment-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.comment-form textarea {
+    width: 90%;
+    max-width: 500px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 14px;
+    resize: none;
+    outline: none;
+    margin-bottom: 15px;
+}
+
+.comment-form textarea:focus {
+    border-color: #512da8;
+    box-shadow: 0 0 5px rgba(81, 45, 168, 0.5);
+}
+
+.comment-form .button-app {
+    padding: 10px 20px;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.comment-form .button-app:hover {
+    background-color: #6a1b9a;
+}
+
